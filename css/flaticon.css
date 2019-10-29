@@ -1,46 +1,57 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 04/01/2019 13:45
+  	Creation date: 28/10/2019 12:32
   	*/
 
-
-@font-face {
-  font-family: "Flaticon";
-  src: url("../fonts/flaticon/font/Flaticon.eot");
-  src: url("../fonts/flaticon/font/Flaticon.eot?#iefix") format("embedded-opentype"),
-       url("../fonts/flaticon/font/Flaticon.woff") format("woff"),
-       url("../fonts/flaticon/font/Flaticon.ttf") format("truetype"),
-       url("../fonts/flaticon/font/Flaticon.svg#Flaticon") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  @font-face {
-    font-family: "Flaticon";
-    src: url("../fonts/flaticon/font/Flaticon.svg#Flaticon") format("svg");
-  }
-}
-
-[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
-[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
-  font-family: Flaticon;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.flaticon-doctor:before { content: "\f100"; }
-.flaticon-stethoscope:before { content: "\f101"; }
-.flaticon-ambulance:before { content: "\f102"; }
-.flaticon-24-hours:before { content: "\f103"; }
-.flaticon-experiment-results:before { content: "\f104"; }
-.flaticon-heart-rate:before { content: "\f105"; }
-.flaticon-dropper:before { content: "\f106"; }
-.flaticon-first-aid-kit:before { content: "\f107"; }
+    @font-face {
+      font-family: "Flaticon";
+      src: url("../fonts/flaticon/font/Flaticon.eot");
+      src: url("../fonts/flaticon/font/Flaticon.eot?#iefix") format("embedded-opentype"),
+           url("../fonts/flaticon/font/Flaticon.woff2") format("woff2"),
+           url("../fonts/flaticon/font/Flaticon.woff") format("woff"),
+           url("../fonts/flaticon/font/Flaticon.ttf") format("truetype"),
+           url("../fonts/flaticon/font/Flaticon.svg#Flaticon") format("svg");
+      font-weight: normal;
+      font-style: normal;
+    }
+    
+    @media screen and (-webkit-min-device-pixel-ratio:0) {
+      @font-face {
+        font-family: "Flaticon";
+        src: url("../fonts/flaticon/font/Flaticon.svg#Flaticon") format("svg");
+      }
+    }
+    
+    [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+    [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+      font-family: Flaticon;
+      font-style: normal;
+      font-weight: normal;
+      font-variant: normal;
+      text-transform: none;
+      line-height: 1;
+    
+      /* Better Font Rendering =========== */
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    
+    .flaticon-x-ray:before { content: "\f100"; }
+    .flaticon-24-hours:before { content: "\f101"; }
+    .flaticon-stethoscope:before { content: "\f102"; }
+    .flaticon-doctor:before { content: "\f103"; }
+    .flaticon-ambulance:before { content: "\f104"; }
+    .flaticon-fingerprint:before { content: "\f105"; }
+    .flaticon-pharmacy:before { content: "\f106"; }
+    .flaticon-eyeglasses:before { content: "\f107"; }
+    .flaticon-ultrasound:before { content: "\f108"; }
+    .flaticon-ultrasound-1:before { content: "\f109"; }
+    .flaticon-ultrasound-machine:before { content: "\f10a"; }
+    .flaticon-ecg-lines:before { content: "\f10b"; }
+    .flaticon-tooth:before { content: "\f10c"; }
+    .flaticon-medicine:before { content: "\f10d"; }
+    .flaticon-meds:before { content: "\f10e"; }
+    .flaticon-microscope:before { content: "\f10f"; }
+    .flaticon-cross:before { content: "\f110"; }
+    .flaticon-cross-1:before { content: "\f111"; }
+    .flaticon-placeholder:before { content: "\f112"; }

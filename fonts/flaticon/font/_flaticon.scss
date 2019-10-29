@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 23/01/2019 09:05
+    Creation date: 28/10/2019 12:32
     */
 
     @font-face {
@@ -37,20 +37,42 @@
   font-smoothing: antialiased;
     }
 
-    .flaticon-doctor:before { content: "\f100"; }
-.flaticon-stethoscope:before { content: "\f101"; }
-.flaticon-ambulance:before { content: "\f102"; }
-.flaticon-24-hours:before { content: "\f103"; }
-.flaticon-experiment-results:before { content: "\f104"; }
-.flaticon-heart-rate:before { content: "\f105"; }
-.flaticon-dropper:before { content: "\f106"; }
-.flaticon-first-aid-kit:before { content: "\f107"; }
+    .flaticon-x-ray:before { content: "\f100"; }
+.flaticon-24-hours:before { content: "\f101"; }
+.flaticon-stethoscope:before { content: "\f102"; }
+.flaticon-doctor:before { content: "\f103"; }
+.flaticon-ambulance:before { content: "\f104"; }
+.flaticon-fingerprint:before { content: "\f105"; }
+.flaticon-pharmacy:before { content: "\f106"; }
+.flaticon-eyeglasses:before { content: "\f107"; }
+.flaticon-ultrasound:before { content: "\f108"; }
+.flaticon-ultrasound-1:before { content: "\f109"; }
+.flaticon-ultrasound-machine:before { content: "\f10a"; }
+.flaticon-ecg-lines:before { content: "\f10b"; }
+.flaticon-tooth:before { content: "\f10c"; }
+.flaticon-medicine:before { content: "\f10d"; }
+.flaticon-meds:before { content: "\f10e"; }
+.flaticon-microscope:before { content: "\f10f"; }
+.flaticon-cross:before { content: "\f110"; }
+.flaticon-cross-1:before { content: "\f111"; }
+.flaticon-placeholder:before { content: "\f112"; }
     
-    $font-Flaticon-doctor: "\f100";
-    $font-Flaticon-stethoscope: "\f101";
-    $font-Flaticon-ambulance: "\f102";
-    $font-Flaticon-24-hours: "\f103";
-    $font-Flaticon-experiment-results: "\f104";
-    $font-Flaticon-heart-rate: "\f105";
-    $font-Flaticon-dropper: "\f106";
-    $font-Flaticon-first-aid-kit: "\f107";
+    $font-Flaticon-x-ray: "\f100";
+    $font-Flaticon-24-hours: "\f101";
+    $font-Flaticon-stethoscope: "\f102";
+    $font-Flaticon-doctor: "\f103";
+    $font-Flaticon-ambulance: "\f104";
+    $font-Flaticon-fingerprint: "\f105";
+    $font-Flaticon-pharmacy: "\f106";
+    $font-Flaticon-eyeglasses: "\f107";
+    $font-Flaticon-ultrasound: "\f108";
+    $font-Flaticon-ultrasound-1: "\f109";
+    $font-Flaticon-ultrasound-machine: "\f10a";
+    $font-Flaticon-ecg-lines: "\f10b";
+    $font-Flaticon-tooth: "\f10c";
+    $font-Flaticon-medicine: "\f10d";
+    $font-Flaticon-meds: "\f10e";
+    $font-Flaticon-microscope: "\f10f";
+    $font-Flaticon-cross: "\f110";
+    $font-Flaticon-cross-1: "\f111";
+    $font-Flaticon-placeholder: "\f112";
