@@ -11,7 +11,7 @@ function init() {
     
     var mapOptions = {
         // How zoomed in you want the map to start at (always required)
-        zoom: 7,
+        zoom: 15,
 
         // The latitude and longitude to center the map (always required)
         center: myLatlng,
@@ -46,10 +46,7 @@ function init() {
     var addresses = ['Maruthamunai'];
 
     for (var x = 0; x < addresses.length; x++) {
-        $.getJSON('http://maps.googleapis.com/maps/api/geocode/json?address=maruthamunai&key=AIzaSyBE2kpNzxI6BfWU606PwhaL9Lj29rDMpc4', null, function (data) {
-
-            // https://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&key=YOUR_API_KEY
-            console.log(data);
+        $.getJSON('https://maps.googleapis.com/maps/api/geocode/json?address=Mercy+Hospital,+01,Main+street,Maruthamunai-01.,+Maruthamunai+32314,+Sri+Lanka&key=AIzaSyBE2kpNzxI6BfWU606PwhaL9Lj29rDMpc4', null, function (data) {
             var p = data.results[0].geometry.location
             var latlng = new google.maps.LatLng(p.lat, p.lng);
             new google.maps.Marker({
