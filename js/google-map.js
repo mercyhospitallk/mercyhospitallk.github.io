@@ -46,9 +46,9 @@ function init() {
     var addresses = ['Maruthamunai'];
 
     for (var x = 0; x < addresses.length; x++) {
-        $.getJSON('http://maps.googleapis.com/maps/api/geocode/json?address='+addresses[x]+'&key = AIzaSyBE2kpNzxI6BfWU606PwhaL9Lj29rDMpc4', null, function (data) {
-//             https://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,
-// +Mountain+View,+CA&key=YOUR_API_KEY
+        $.getJSON('http://maps.googleapis.com/maps/api/geocode/json?address=maruthamunai+&key = AIzaSyBE2kpNzxI6BfWU606PwhaL9Lj29rDMpc4', null, function (data) {
+
+            // https://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&key=YOUR_API_KEY
             console.log(data);
             var p = data.results[0].geometry.location
             var latlng = new google.maps.LatLng(p.lat, p.lng);
