@@ -52,7 +52,13 @@ function init() {
             new google.maps.Marker({
                 position: latlng,
                 map: map,
-                icon: 'images/loc.png'
+                icon: 'images/loc.png',
+                // labelOrigin: { x: 12, y: -10},
+                label:'Mercy Hospital',
+                // labelContent: place["place_name"],
+                // labelAnchor: new google.maps.Point(20, 0),
+                // labelClass: "labels", // the CSS class for the label
+                // labelStyle: {opacity: 0.75}
             });
 
         });
