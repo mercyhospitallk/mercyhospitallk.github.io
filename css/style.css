@@ -8050,7 +8050,7 @@ h1, h2, h3, h4, h5,
 .ftco-navbar-light {
   background: rgba(255, 255, 255, 0.5) !important;
   position: absolute;
-  top: 33px;
+  top: 0;
   left: 0;
   right: 0;
   z-index: 3;
@@ -8786,6 +8786,7 @@ textarea.form-control {
   background: #3c312e; }
 
 .ftco-footer {
+  height: 500px;
   font-size: 16px;
   background: #b9d6ff;
   padding: 7em 0;
@@ -8793,6 +8794,7 @@ textarea.form-control {
   position: relative; }
   .ftco-footer .overlay {
     position: absolute;
+    /* height: 500px; */
     top: 0;
     left: 0;
     right: 0;
